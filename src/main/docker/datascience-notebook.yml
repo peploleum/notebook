@@ -1,0 +1,11 @@
+version: '3'
+services:
+    nexus:
+        image: jupyter/all-spark-notebook
+        container_name: all-spark-notebook
+        environment:
+          NB_USER: peploleum
+        ports:
+          -  8888:8888
+        volumes:
+          -  C:/dev/temp:/home/peploleum/work
