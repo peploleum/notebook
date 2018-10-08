@@ -1,8 +1,8 @@
 version: '3'
 services:
     nexus:
-        image: jupyter/all-spark-notebook
-        container_name: all-spark-notebook
+        image: jupyter/custom-datascience-notebook
+        container_name: custom-datascience-notebook
         environment:
           NB_USER: peploleum
         ports:
